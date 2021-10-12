@@ -1,16 +1,12 @@
-body {
+.grid {
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.invader-1 {
-  background-image: url("/invader.svg");
-  background-repeat: no-repeat;
-}
-
-.invadersGrid1 {
-  position: absolute;
-  display: grid;
-  grid-template-columns: repeat(7, 50px);
-  grid-template-rows: repeat(5, 50px);
-
-  top: 0;
+.grid div {
+  width: 20px;
+  height: 20px;
 }
