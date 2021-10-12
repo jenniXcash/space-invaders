@@ -1,12 +1,29 @@
 .grid {
-  width: 300px;
-  height: 300px;
+  width: 840px;
+  /* height: 840px; */
   border: solid black 1px;
   display: flex;
   flex-wrap: wrap;
 }
 
 .grid div {
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.invader-1 {
+  background-image: url("invader.svg");
+  background-repeat: no-repeat;
+}
+
+.shooter {
+  background-color: red;
+}
+
+.laser {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: orange;
 }
