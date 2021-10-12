@@ -14,8 +14,15 @@ function startGame(board, invader) {
   for (i = 0; i < 35; i++) {
     const newDiv = document.createElement("div");
     newDiv.classList.add(invader.class);
+    newDiv.style.backgroundColor = "white";
     board.appendChild(newDiv);
   }
+  movingInvaders(board);
 }
 
+//Setting the function which will move the invaders
+function movingInvaders(invadersOnTheBoard) {
+  const moveX = 30;
+  const moveY = 30;
+}
 startGame(invadersBoard, invader1);
